@@ -1,12 +1,12 @@
 {
-  "compilerOptions": {
-    "target": "ES6", // Versão do JavaScript de saída
-    "module": "commonjs", // Sistema de módulos
-    "outDir": "./dist", // Pasta onde os arquivos .js serão gerados
-    "rootDir": "./src", // Pasta onde estão os arquivos .ts
-    "strict": true, // Habilita verificações rigorosas
-    "esModuleInterop": true // Permite interoperabilidade com módulos CommonJS
-  },
-  "include": ["src/**/*"], // Arquivos a serem compilados
-  "exclude": ["node_modules"] // Arquivos a serem ignorados
-}
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "commonjs",
+      "strict": true,
+      "esModuleInterop": true,
+      "outDir": "./dist",
+      "rootDir": "./src"
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+  }
